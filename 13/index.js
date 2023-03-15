@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let myarray = [
+    ["i would love to have a heavybike like", " Suzuki Hayabusa"],
+    ["i would also want a car like", " nisan 350z"],
+    ["also i want graphic card", " gtx1660 super"]
+];
+for (let value of myarray) {
+    console.log(value + " is my friend");
+}
